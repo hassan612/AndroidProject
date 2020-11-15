@@ -27,7 +27,7 @@ public class DriverManager {
     private static URL hosts(String deviceID) throws MalformedURLException{
         if (hosts == null){
             hosts = new HashMap<>();
-            hosts.put("ZX1G456HF", new URL("http://126.0.0:4723/wd/hub"));
+            hosts.put("RF8KA14TALN", new URL("http://126.0.0:4723/wd/hub"));
 //            Add more devices IDs for other devices and change each server url if you want to rum parallel testing
 //            hosts.put("ZX1G456HF", new URL("http://126.0.2:4724wd/hub"));
 //            hosts.put("ZX1G456HF", new URL("http://126.0.3:4725/wd/hub"));
